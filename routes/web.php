@@ -10,6 +10,10 @@ use App\Http\Controllers\LanguageController;
 // Switch between the included languages
 Route::get('lang/{lang}', [LanguageController::class, 'swap']);
 
+
+Route::view('/grocery', 'grocery');
+Route::post('/grocery/post', 'GroceryController@store');
+
 /*
  * Frontend Routes
  * Namespaces indicate folder structure
