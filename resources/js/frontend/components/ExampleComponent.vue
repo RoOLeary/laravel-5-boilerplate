@@ -5,6 +5,7 @@
         </div>
         <div class="card-body">
             I'm an example Vue component!
+            <h1>FLERP</h1>
         </div>
     </div>
 </template>
